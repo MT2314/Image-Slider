@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    text-align: center;
+    background-color: #00000098;
+    color: #ffffff;
+    margin:0;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.back{
+    
+    margin-right: 10px;
+    height: 4vh;
+    width: 7.5vw;
+    font-size:1.7vw;
+}
+
+.forward{
+    height: 4vh;
+    width: 7.5vw;
+    font-size:1.7vw;
+}
+
+/* Image Container */
+
+.imgContainer{
+
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height:75vh;
+    width:75vw;
+}
+
+.pic{
+
+    object-fit: contain;
+    width: 100%;
+    height:100%;
+    
+
+}
