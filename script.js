@@ -94,3 +94,17 @@ info.innerHTML = slideShow[i].name;
 
 
 
+//Upload
+
+let upload ;
+let btnupload = document.getElementById("uploadbtn");
+
+btnupload.addEventListener("click", function(){
+    upload = document.getElementById("upload").value;
+    btnupload = document.getElementById("uploadbtn");
+    console.log(upload);
+
+    let acura = new Picture(upload, "Acura NSX.jpg");
+    slideShow.push(acura);
+});
+
